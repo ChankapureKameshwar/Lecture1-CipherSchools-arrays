@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  //displaying the values of array in serial order
+  int a=10;
+  int arr[10];
+  for(int i=0;i<10;i++)
+  {
+    cin>>arr[i];
+  }
+  cout<<"contents in the array are: ;
+  for(int i=0;i<10;i++)
+  {
+    cout<<arr[i]<<" ";
+  }
+  //displaying the content of arrays in reverse order
+  
+  int l=15;
+  int arr[15];
+  for(int i=0;i<15;i++)
+  {
+    cin>>arr[i];
+  }
+  cout<<"contents in the array are: ;
+  for(int i=l-1;i>=0;i--)
+  {
+    cout<<arr[i]<<" ";
+  }
+
+}
